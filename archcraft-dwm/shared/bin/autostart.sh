@@ -42,6 +42,9 @@ exec mpd &
 
 ## Add your autostart programs here --------------
 
+# hide cursor
+xbanish &
+
 ## -----------------------------------------------
 
 # Launch DWM

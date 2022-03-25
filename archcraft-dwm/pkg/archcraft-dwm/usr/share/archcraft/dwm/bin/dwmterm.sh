@@ -5,7 +5,7 @@
 
 ## launch alacritty with i3wm config
 
-CONFIG="/usr/share/archcraft/dwm/alacritty/alacritty.yml"
+CONFIG="/home/nich/.config/alacritty-dwm/alacritty.yml"
 
 if [ "$1" == "-f" ]; then
 	alacritty --class 'alacritty-float,alacritty-float' --config-file "$CONFIG"
